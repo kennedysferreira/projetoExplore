@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Mulish", sans-serif;
+  font-size: 6.25%;
+
+  --whiteColor: #fff;
+  --backgroundLinearGradient: linear-gradient(#343193, #302c63);
+  --colorTitleBase: #b52184;
+  --colorTextBase: #312d64;
+}
+
+html,
+input,
+button {
+  font-family: "Mulish", sans-serif;
+}
+
+#app {
+  text-align: center;
+  margin: auto;
+  width: 430rem;
+}
+
+header {
+  margin: 0 32rem;
+}
+
+header img {
+  width: 364rem;
+  height: 370rem;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 32rem;
+  line-height: 40rem;
+  margin-top: 16rem;
+  color: var(--colorTitleBase);
+}
+
+header p {
+  margin-top: 6rem;
+  font-weight: 600;
+  font-size: 20rem;
+  line-height: 25rem;
+
+  color: var(--colorTextBase);
+}
+
+header button {
+  margin-top: 36rem;
+  width: 58rem;
+  height: 104rem;
+  border: 4rem solid var(--colorTitleBase);
+  border-radius: 760rem;
+}
+
+header button img {
+  width: 30rem;
+  height: 46rem;
+}
+
+main section {
+  background: var(--backgroundLinearGradient);
+  padding: 52rem 38rem;
+  margin-top: 92rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50rem;
+}
+
+main figure {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20rem;
+  padding: 26rem 60rem 26rem 26rem;
+  background-color: var(--whiteColor);
+}
+
+main figure img {
+  width: 80rem;
+  height: 80rem;
+}
+
+main figure h1 {
+  text-align: start;
+  font-weight: 900;
+  font-size: 28rem;
+  line-height: 36rem;
+  margin-top: 32rem;
+  color: var(--colorTitleBase);
+}
+
+main figure p {
+  text-align: start;
+  margin-top: 20rem;
+  font-weight: 600;
+  font-size: 16rem;
+  line-height: 20rem;
+
+  color: var(--colorTextBase);
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 24rem;
+  padding: 78rem 40rem 65rem;
+}
+
+main form h1 {
+  text-align: start;
+  font-weight: 900;
+  font-size: 28rem;
+  line-height: 36rem;
+  margin: 0 0 18rem;
+  color: var(--colorTitleBase);
+}
+
+main form input {
+  border: 1.5rem solid var(--colorTextBase);
+  border-radius: 16rem;
+  width: 100%;
+  padding: 12rem 16rem;
+}
+
+
